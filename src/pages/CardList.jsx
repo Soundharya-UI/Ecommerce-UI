@@ -6,7 +6,7 @@ export const CardList = () => {
 const products = [
     {
         "id":1,
-        "image": "src/assets/ervo-rocks-Zam8TvEgN5o-unsplash.jpg",
+        "image": "/src/assets/ervo-rocks-Zam8TvEgN5o-unsplash.jpg",
         "name": "Boat Rockerz 450",
         "price": 149
     },
