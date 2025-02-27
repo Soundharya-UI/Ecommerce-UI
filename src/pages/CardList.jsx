@@ -1,12 +1,13 @@
 import { Card } from "../components"
 import { useTitle } from "../hooks/useTitle";
+import image1 from "../assets/ervo-rocks-Zam8TvEgN5o-unsplash.jpg"
 
 export const CardList = () => {
 
 const products = [
     {
         "id":1,
-        "image": "/src/assets/ervo-rocks-Zam8TvEgN5o-unsplash.jpg",
+        "image": {image1},
         "name": "Boat Rockerz 450",
         "price": 149
     },
